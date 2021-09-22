@@ -1,6 +1,7 @@
 key.json
 bin/
 obj/
+Properties/
 /packages/
 MonsterSlayersAPI/Properties
 MonsterSlayersAPI.Tests/Properties

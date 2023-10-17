@@ -43,13 +43,13 @@ namespace MonsterSlayersAPI
 			   .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 			   .AddJwtBearer(options =>
 			   {
-				   options.Authority = "https://securetoken.google.com/test-e5552";
+				   options.Authority = "";
 				   options.TokenValidationParameters = new TokenValidationParameters
 				   {
 					   ValidateIssuer = true,
-					   ValidIssuer = "https://securetoken.google.com/test-e5552",
+					   ValidIssuer = "",
 					   ValidateAudience = true,
-					   ValidAudience = "test-e5552",
+					   ValidAudience = "",
 					   ValidateLifetime = true
 				   };
 			   });
